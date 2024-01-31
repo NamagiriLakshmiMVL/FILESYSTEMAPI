@@ -11,6 +11,7 @@ app.post('/posting-files', express.json(), (req, res) => {
         const result = fs.writeFile('./backup/' + now.getFullYear() + "-" + now.getMonth() + "-" + now.getDate() + "-" + now.getHours() + "-" + now.getMinutes() + "-" + now.getSeconds() + '.txt', data, (err) => {
             res.send({ message: "File created Successfully" })
             res.send("Succcess")
+            res.write("Succcess")
         })
     }
     catch (error) {
