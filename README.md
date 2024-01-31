@@ -5,7 +5,7 @@ POST- Putting Files in the Directory
 https://filesystemapi-35kd.onrender.com/posting-files
 
 
-will create file in current date-time.txt
+will create file in current date-time.txt    [(YY:MM:DD:HR:MIN:SEC).txt]
 ![image](https://github.com/NamagiriLakshmiMVL/FILESYSTEMAPI/assets/144921147/65fb986d-b099-4d62-bf61-282510c6645b)
 
 Getting all the Files in the directory "./backup"
